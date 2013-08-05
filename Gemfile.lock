@@ -115,7 +115,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
-  pg (= 0.12.2)
+  pg
   quiet_assets
   rails (= 3.2.11)
   sass-rails (~> 3.2.3)
