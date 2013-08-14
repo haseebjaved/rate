@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
-
 gem 'devise'
-
 gem 'simple_form'
+gem "paperclip", "~> 3.0"
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
