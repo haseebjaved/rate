@@ -1,5 +1,7 @@
 source 'http://rubygems.org'
 
+ruby '2.0.0'
+
 gem 'rails', '4.0.0'
 gem 'devise'
 gem 'simple_form', :git => 'git://github.com/plataformatec/simple_form.git'
