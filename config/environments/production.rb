@@ -6,6 +6,8 @@ Swag::Application.configure do
   # Code is not reloaded between requests
   config.cache_classes = true
   
+  config.eager_load = true
+  
   config.paperclip_defaults = {
     :storage => :s3,
     :s3_credentials => {
