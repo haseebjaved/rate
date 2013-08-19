@@ -18,9 +18,10 @@ gem 'protected_attributes'
 
 group :development, :test do
   gem 'sqlite3'
-  gem 'thin'
   gem 'quiet_assets'
 end
+
+gem 'thin'
 
 group :production do
   gem 'pg'
