@@ -155,7 +155,7 @@ PLATFORMS
 
 DEPENDENCIES
   aws-sdk
-  bootstrap-sass
+  bootstrap-sass (~> 2.3.2.1)
   bootstrap-will_paginate
   coffee-rails
   devise

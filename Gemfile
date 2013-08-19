@@ -24,16 +24,15 @@ end
 
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
-
-gem 'rails_12factor', group: :production
 
 # Gems used only for assets and not required
 # in production environments by default.
 
   gem 'sass-rails'
   gem 'coffee-rails'
-  gem 'bootstrap-sass'#, '~> 2.3.2.1'
+  gem 'bootstrap-sass', '~> 2.3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
